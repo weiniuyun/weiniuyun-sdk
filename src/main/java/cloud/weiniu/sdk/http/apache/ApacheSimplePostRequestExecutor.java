@@ -13,10 +13,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import java.io.IOException;
 
 /**
- * .
- *
- * @author tiger
- * @date 2017/5/4
+ * @author tiger (tiger@microsoul.com) 7/2/21
  */
 public class ApacheSimplePostRequestExecutor extends SimplePostRequestExecutor<CloseableHttpClient, HttpHost> {
     public ApacheSimplePostRequestExecutor(RequestHttp requestHttp) {

@@ -159,6 +159,7 @@ public class CryptUtil {
     /**
      * 对明文进行加密.
      *
+     * @param randomStr 需要加密的明文
      * @param plainText 需要加密的明文
      * @return 加密后base64编码的字符串
      */

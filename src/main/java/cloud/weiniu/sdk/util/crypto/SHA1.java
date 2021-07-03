@@ -6,14 +6,13 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Arrays;
 
 /**
- *
- * @author Daniel Qian
- * @date 14/10/19
+ * @author tiger (tiger@microsoul.com) 7/2/21
  */
 public class SHA1 {
 
   /**
-   * 串接arr参数，生成sha1 digest.
+   *  @param arr 串接arr参数，生成sha1 digest.
+   *  @return  加密后
    */
   public static String gen(String... arr) {
     if (StringUtils.isAnyEmpty(arr)) {
@@ -29,7 +28,9 @@ public class SHA1 {
   }
 
   /**
-   * 用&串接arr参数，生成sha1 digest.
+   *
+   * @param arr
+   * @return
    */
   public static String genWithAmple(String... arr) {
     if (StringUtils.isAnyEmpty(arr)) {
